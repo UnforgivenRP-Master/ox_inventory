@@ -84,6 +84,22 @@ return {
 		}
 	},
 
+	hutingShop = {
+		name = 'HUNTING SHOP',
+		blip = {
+			id = 470, colour = 3, scale = 0.9
+		}, inventory = {
+			{ name = 'WEAPON_KNIFE', price = 1500, license = 'weapon'},--add other licenses here 
+			{ name = 'WEAPON_DAGGER', price = 2000, license = 'weapon'},
+			{ name = 'ammo-musket', price = 400, license = 'weapon' },
+			{ name = 'WEAPON_MUSKET', price = 50000, metadata = { registered = true }, license = 'weapon' }, 
+		}, locations = {
+			vec3(562.3336, 2741.6128, 42.8688),
+		}, targets = {
+			{ loc = vec3(562.3336, 2741.6128, 42.8688), length = 0.6, width = 0.5, heading = 189.0, minZ = 42.5688, maxZ = 43.8688, distance = 3.0 },
+		}
+	},
+	
 	Ammunation = {
 		name = 'Ammunation',
 		blip = {

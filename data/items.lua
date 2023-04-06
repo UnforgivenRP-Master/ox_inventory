@@ -194,4 +194,28 @@ return {
 		label = 'Scrap Metal',
 		weight = 80,
 	},
+
+		['leather'] = {
+		label = 'leather',
+		weight = 5000,
+		stack = true,
+		close = false,
+		consume = 0
+	},
+
+	['meat'] = {
+		label = 'meat',
+		weight = 1000,
+		stack = true,
+		close = false,
+		consume = 0
+	},
+
+	['a_c_deer_horns'] = {
+		label = 'deer_horns',
+		weight = 2500,
+		stack = true,
+		close = false,
+		consume = 0
+	},
 }
