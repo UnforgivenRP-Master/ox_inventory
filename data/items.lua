@@ -218,4 +218,417 @@ return {
 		close = false,
 		consume = 0
 	},
+
+	["adamantite_ore"] = {
+		label = "Adamantite Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["adamant_bar"] = {
+		label = "Adamant Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["alive_chicken"] = {
+		label = "Living chicken",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blowpipe"] = {
+		label = "Blowtorch",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["bread"] = {
+		label = "Bread",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cannabis"] = {
+		label = "Cannabis",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["carokit"] = {
+		label = "Body Kit",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["carotool"] = {
+		label = "Tools",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["clothe"] = {
+		label = "Cloth",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["copper"] = {
+		label = "Copper",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["copper_bar"] = {
+		label = "Copper Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["copper_ore"] = {
+		label = "Copper Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cutted_wood"] = {
+		label = "Cut wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["diamond"] = {
+		label = "Diamond",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["essence"] = {
+		label = "Gas",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fabric"] = {
+		label = "Fabric",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish"] = {
+		label = "Fish",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish1"] = {
+		label = "Fish 1",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish10"] = {
+		label = "Fish 10",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish11"] = {
+		label = "Fish 11",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish2"] = {
+		label = "Fish 2",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish3"] = {
+		label = "Fish 3",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish4"] = {
+		label = "Fish 4",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish5"] = {
+		label = "Fish 5",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish6"] = {
+		label = "Fish 6",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish7"] = {
+		label = "Fish 7",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish8"] = {
+		label = "Fish 8",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish9"] = {
+		label = "Fish 9",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fishingrod"] = {
+		label = "Fishing Rod",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fixkit"] = {
+		label = "Repair Kit",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["fixtool"] = {
+		label = "Repair Tools",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["gazbottle"] = {
+		label = "Gas Bottle",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["gold"] = {
+		label = "Gold",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["gold_bar"] = {
+		label = "Gold Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["gold_ore"] = {
+		label = "Gold Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron"] = {
+		label = "Iron",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron_bar"] = {
+		label = "Iron Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron_ore"] = {
+		label = "Iron Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["marijuana"] = {
+		label = "Marijuana",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["medikit"] = {
+		label = "Medikit",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["mithril_bar"] = {
+		label = "Mithril Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["mithril_ore"] = {
+		label = "Mithril Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["packaged_chicken"] = {
+		label = "Chicken fillet",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["packaged_plank"] = {
+		label = "Packaged wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["pelt"] = {
+		label = "Pelt",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["petrol"] = {
+		label = "Oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["petrol_raffin"] = {
+		label = "Processed oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["rune_bar"] = {
+		label = "Rune Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["runite_ore"] = {
+		label = "Runite Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["silver_bar"] = {
+		label = "Silver Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["silver_ore"] = {
+		label = "Silver Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["slaughtered_chicken"] = {
+		label = "Slaughtered chicken",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["steel_bar"] = {
+		label = "Steel Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["stone"] = {
+		label = "Stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["tin_bar"] = {
+		label = "Tin Bar",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["tin_ore"] = {
+		label = "Tin Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["washed_stone"] = {
+		label = "Washed stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wood"] = {
+		label = "Wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wool"] = {
+		label = "Wool",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
 }
