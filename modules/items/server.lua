@@ -4,7 +4,7 @@ if not lib then return end
 local Items = {}
 local ItemList = require 'modules.items.shared' --[[@as { [string]: OxServerItem }]]
 local Utils = require 'modules.utils.server'
-
+ 
 TriggerEvent('ox_inventory:itemList', ItemList)
 
 Items.containers = require 'modules.items.containers'
@@ -361,36 +361,30 @@ function Items.CheckMetadata(metadata, item, name, ostime)
 		metadata = setItemDurability(item, metadata)
 	end
 
-	if item.weapon then
-		if metadata.components then
-			if table.type(metadata.components) == 'array' then
-				for i = #metadata.components, 1, -1 do
-					if not ItemList[metadata.components[i]] then
-						table.remove(metadata.components, i)
-					end
+	if metadata.components then
+		if table.type(metadata.components) == 'array' then
+			for i = #metadata.components, 1, -1 do
+				if not ItemList[metadata.components[i]] then
+					table.remove(metadata.components, i)
 				end
-			else
-				local components = {}
-				local size = 0
-
-				for _, component in pairs(metadata.components) do
-					if component and ItemList[component] then
-						size += 1
-						components[size] = component
-					end
-				end
-
-				metadata.components = components
 			end
-		end
+		else
+			local components = {}
+			local size = 0
 
-		if metadata.serial and item.throwable then
-			metadata.serial = nil
-		end
+			for _, component in pairs(metadata.components) do
+				if component and ItemList[component] then
+					size += 1
+					components[size] = component
+				end
+			end
 
-		if item.metadata.specialAmmo and type(item.metadata.specialAmmo) ~= 'string' then
-			item.metadata.specialAmmo = nil
+			metadata.components = components
 		end
+	end
+
+	if metadata.serial and item.weapon and not item.ammoname then
+		metadata.serial = nil
 	end
 
 	return metadata
