@@ -84,7 +84,7 @@ return {
 		}
 	},
 
-	hutingShop = {
+	HutingShop = {
 		name = 'HUNTING SHOP',
 		blip = {
 			id = 470, colour = 3, scale = 0.9
