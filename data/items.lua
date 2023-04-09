@@ -647,7 +647,7 @@ return {
 	},
 
 	['trout'] = {
-		label = 'Amber',
+		label = 'TROUT',
 		weight = 250,
 		stack = true,
 		close = false,
