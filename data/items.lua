@@ -673,4 +673,11 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	['ginge'] = {
+		label = 'Ginge 2.0',
+		weight = 250,
+		stack = true,
+		close = false,
+	},
 }
