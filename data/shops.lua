@@ -91,8 +91,8 @@ return {
 		}, inventory = {
 			{ name = 'fishingrod', price = 1 },
 			{ name = 'fishbate', price = 1 }
-		}, locations = {	
-			vec(-1038.23, -1396.97, 5.55)
+		}, locations = {
+			vec3(-1038.23, -1396.97, 5.55)
 		}, targets = {
 			{ loc = vec3(-1038.23, -1396.97, 5.55), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 }
 		}
