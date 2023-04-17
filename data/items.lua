@@ -680,4 +680,102 @@ return {
 		stack = true,
 		close = false,
 	},
+
+	["flathead"] = {
+		label = "Flat Head",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["garfish"] = {
+		label = "Garfish",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["carp"] = {
+		label = "Carp",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["catfish"] = {
+		label = "Cat fish",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["amberjack"] = {
+		label = "Amberjack",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["barracuda"] = {
+		label = "Barracuda",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["barramundi"] = {
+		label = "Barramundi",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["bass"] = {
+		label = "Bass",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["whiting"] = {
+		label = "Whiting",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["mahi_mahi"] = {
+		label = "Mahi Mahi",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["bream"] = {
+		label = "Bream",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["bull_shark"] = {
+		label = "Bull Shark",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["snapper"] = {
+		label = "Snapper",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["groper"] = {
+		label = "Groper",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
 }
