@@ -848,4 +848,11 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	["ginge"] = {
+		label = "Ginge",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
 }
