@@ -632,34 +632,6 @@ return {
 		close = true,
 	},
 
-	['tuna'] = {
-		label = 'Tuna',
-		weight = 650,
-		stack = true,
-		close = false,
-	},
-	
-	['salmon'] = {
-		label = 'Salmon',
-		weight = 350,
-		stack = true,
-		close = false,
-	},
-
-	['trout'] = {
-		label = 'TROUT',
-		weight = 250,
-		stack = true,
-		close = false,
-	},
-
-	['anchovy'] = {
-		label = 'Anchovy',
-		weight = 50,
-		stack = true,
-		close = false,
-	},
-
 	['fishbait'] = {
 		label = 'Fish Bait',
 		weight = 50,
@@ -674,11 +646,109 @@ return {
 		close = true,
 	},
 
-	['ginge'] = {
-		label = 'Ginge 2.0',
-		weight = 250,
+	['anchovy'] = {
+		label = 'Anchovy',
+		weight = 1,
 		stack = true,
-		close = false,
+		close = true,
+	},
+
+	['bass'] = {
+		label = 'Bass',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['barracuda'] = {
+		label = 'Barracuda',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['bream'] = {
+		label = 'Bream',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['carp'] = {
+		label = 'Carp',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['catfish'] = {
+		label = 'Catfish',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['flathead'] = {
+		label = 'Flat Head',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['whiting'] = {
+		label = 'Whiting',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['groper'] = {
+		label = 'Groper',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['garfish'] = {
+		label = 'Garfish',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['barramundi'] = {
+		label = 'Barramundi',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['snapper'] = {
+		label = 'Snapper',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['mahi_mahi'] = {
+		label = 'Mahi Mahi',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['bull_shark'] = {
+		label = 'Bull Shark',
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	['amberjack'] = {
+		label = 'Amberjack',
+		weight = 1,
+		stack = true,
+		close = true,
 	},
 
 	["flathead"] = {
